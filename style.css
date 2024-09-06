@@ -1,4 +1,29 @@
-body{
+body {
     background-color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+div>div>div>div {
+    color: blueviolet;
+}
+
+div>div>div>div::first-letter {
+    color: rgb(255, 0, 0);
+}
+
+p::first-line {
+    font-style: italic;
+}
+
+.hovery {
+    div {
+        width: 100px;
+        height: 100px;
+        background-color: #3788AB;
+    }
+
+    div:hover {
+        background-color: #AC3864;
+    }
 }
