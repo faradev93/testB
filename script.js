@@ -43,3 +43,9 @@ function zarb() {
     console.log(a * b);
 }
 zarb();
+
+function type (input){
+    
+    console.log(typeof input);
+}
+type(null);
